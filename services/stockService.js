@@ -17,8 +17,6 @@ async function addStock(stock) {
     await newStock.save();
 }
 
-
-
 module.exports = {
     getStockByName,
     addStock
