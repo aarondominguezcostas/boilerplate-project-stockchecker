@@ -10,9 +10,7 @@ async function getStockPriceByName(name){
       stock: name,
       price: response.data.latestPrice,
     };
-    
-    console.log(companyInfo);
-  
+      
     return companyInfo;
   }
 
